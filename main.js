@@ -7,71 +7,84 @@ function modalBio() {
 document.addEventListener('DOMContentLoaded', function() {
     const albumsData = {
         1: { 
-            title: "Álbum Um", 
-            spotifyEmbedUrl: "https://open.spotify.com/embed/album/4Uv86qWpGTxf7fU7lG5X6F?utm_source=generator" 
+            title: "The College Dropout", 
+            spotifyEmbedUrl: "https://open.spotify.com/embed/album/4Uv86qWpGTxf7fU7lG5X6F?utm_source=generator",
+            colors: { primary: "#8B4513", background: "#CD853F", playerBg: "#8B4513", text: "#F1FAEE" }
         },
         2: { 
-            title: "Álbum Dois", 
-            spotifyEmbedUrl: "https://open.spotify.com/embed/album/5ll74bqtkcXlKE7wwkMq4g?utm_source=generator" 
+            title: "Late Registration", 
+            spotifyEmbedUrl: "https://open.spotify.com/embed/album/5ll74bqtkcXlKE7wwkMq4g?utm_source=generator",
+            colors: { primary: "#8B4513 ", background: "#A0522D", playerBg: "#4F4F4F", text: "#E8F5E9" }
         },
         3: { 
-            title: "Álbum Três", 
-            spotifyEmbedUrl: "https://open.spotify.com/embed/album/4SZko61aMnmgvNhfhgTuD3?utm_source=generator" 
+            title: "Graduation", 
+            spotifyEmbedUrl: "https://open.spotify.com/embed/album/4SZko61aMnmgvNhfhgTuD3?utm_source=generator",
+            colors: { primary: "#1C1C1C", background: "#BA55D3", playerBg: "    #9932CC", text: "#FFF3E0" }
         },
         4: { 
-            title: "Álbum Quatro", 
-            spotifyEmbedUrl: "https://open.spotify.com/embed/album/3WFTGIO6E3Xh4paEOBY9OU?utm_source=generator" 
+            title: "808s & Heartbreak", 
+            spotifyEmbedUrl: "https://open.spotify.com/embed/album/3WFTGIO6E3Xh4paEOBY9OU?utm_source=generator",
+            colors: { primary: "    #696969", background: "     #363636", playerBg: "    #808080", text: "#F3E5F5" }
         },
         5: { 
-            title: "Álbum Cinco", 
-            spotifyEmbedUrl: "https://open.spotify.com/embed/album/20r762YmB5HeofjMCiPMLv?utm_source=generator" 
+            title: "My Beautiful Dark Twisted Fantasy", 
+            spotifyEmbedUrl: "https://open.spotify.com/embed/album/20r762YmB5HeofjMCiPMLv?utm_source=generator",
+            colors: { primary: "#1C1C1C", background: "#8B0000", playerBg: "    #DC143C", text: "#E3F2FD" }
         },
         6: { 
-            title: "Álbum Seis", 
-            spotifyEmbedUrl: "https://open.spotify.com/embed/album/7D2NdGvBHIavgLhmcwhluK?utm_source=generator" 
+            title: "Yeezus", 
+            spotifyEmbedUrl: "https://open.spotify.com/embed/album/7D2NdGvBHIavgLhmcwhluK?utm_source=generator",
+            colors: { primary: "#A52A2A", background: "#FFF0F5", playerBg: "#FF6347", text: "#000000" }
         },
         7: { 
-            title: "Álbum Sete", 
-            spotifyEmbedUrl: "https://open.spotify.com/embed/album/7gsWAHLeT0w7es6FofOXk1?utm_source=generator" 
+            title: "The Life of Pablo", 
+            spotifyEmbedUrl: "https://open.spotify.com/embed/album/7gsWAHLeT0w7es6FofOXk1?utm_source=generator",
+            colors: { primary: "#00BCD4", background: "#0A1E23", playerBg: "#132a30", text: "#E0F7FA" }
         },
         8: { 
-            title: "Álbum Oito", 
-            spotifyEmbedUrl: "https://open.spotify.com/embed/album/2Ek1q2haOnxVqhvVKqMvJe?utm_source=generator" 
+            title: "ye", 
+            spotifyEmbedUrl: "https://open.spotify.com/embed/album/2Ek1q2haOnxVqhvVKqMvJe?utm_source=generator",
+            colors: { primary: "#8BC34A", background: "#101A0F", playerBg: "#1a2917", text: "#F1F8E9" }
         },
         9: { 
-            title: "Álbum Nove", 
-            spotifyEmbedUrl: "https://open.spotify.com/embed/album/0FgZKfoU2Br5sHOfvZKTI9?utm_source=generator" 
+            title: "Jesus is King", 
+            spotifyEmbedUrl: "https://open.spotify.com/embed/album/0FgZKfoU2Br5sHOfvZKTI9?utm_source=generator",
+            colors: { primary: "#FDD835", background: "#1C1A0D", playerBg: "#2c2814", text: "#FFFDE7" }
         },
         10: { 
-            title: "Álbum Dez", 
-            spotifyEmbedUrl: "https://open.spotify.com/embed/album/5CnpZV3q5BcESefcB3WJmz?utm_source=generator" 
+            title: "Donda", 
+            spotifyEmbedUrl: "https://open.spotify.com/embed/album/5CnpZV3q5BcESefcB3WJmz?utm_source=generator",
+            colors: { primary: "#F06292", background: "#1A0D12", playerBg: "#28141c", text: "#FCE4EC" }
         },
         11: { 
-            title: "Álbum Onze", 
-            spotifyEmbedUrl: "https://open.spotify.com/embed/album/1ZkGNUz1un0b3Z7EsJl3ci?utm_source=generator" 
+            title: "Donda 2", 
+            spotifyEmbedUrl: "https://open.spotify.com/embed/album/1ZkGNUz1un0b3Z7EsJl3ci?utm_source=generator",
+            colors: { primary: "#3F51B5", background: "#0D0E1C", playerBg: "#191b33", text: "#E8EAF6" }
         },
         12: { 
-            title: "Álbum Doze", 
-            spotifyEmbedUrl: "https://open.spotify.com/prerelease/4xFs0x8abwU3H9uNRPFRmE?si=0bf742808a1043cd" 
+            title: "Bully", 
+            spotifyEmbedUrl: "https://open.spotify.com/prerelease/4xFs0x8abwU3H9uNRPFRmE?si=0bf742808a1043cd",
+            colors: { primary: "#FFB300", background: "#1C150D", playerBg: "#2a1f13", text: "#FFF8E1" }
         },
         13: { 
-            title: "Álbum Treze", 
-            spotifyEmbedUrl: "https://open.spotify.com/embed/album/6pwuKxMUkNg673KETsXPUV?utm_source=generator" 
+            title: "Kids See Ghosts", 
+            spotifyEmbedUrl: "https://open.spotify.com/embed/album/6pwuKxMUkNg673KETsXPUV?utm_source=generator",
+            colors: { primary: "#009688", background: "#0D1C19", playerBg: "#152e2a", text: "#E0F2F1" }
         },
         14: { 
-            title: "Álbum Quatorze", 
-            spotifyEmbedUrl: "https://open.spotify.com/embed/album/4DOsPwJtokv6HEifZ6t5j6?utm_source=generator" 
+            title: "Vultures", 
+            spotifyEmbedUrl: "https://open.spotify.com/embed/album/4DOsPwJtokv6HEifZ6t5j6?utm_source=generator",
+            colors: { primary: "#AB47BC", background: "#1A1020", playerBg: "#26182c", text: "#F3E5F5" }
         }
     };
 
- const carousel = document.querySelector('.carousel');
+    const carousel = document.querySelector('.carousel');
     const albums = document.querySelectorAll('.album');
     const prevButton = document.querySelector('.carousel-control.prev');
     const nextButton = document.querySelector('.carousel-control.next');
     const spotifyPlayer = document.querySelector('.spotify-player');
     const tracksTitle = document.querySelector('.tracks-container h2');
-
-    /* tá passando, arrumo depois */
+    const playerContainer = document.querySelector('.tracks-container');
 
     let currentPosition = 0;
     const albumWidth = albums[0].offsetWidth + 20;
@@ -102,6 +115,27 @@ document.addEventListener('DOMContentLoaded', function() {
         
         albums.forEach(a => a.classList.remove('selected'));
         document.querySelector(`.album[data-album-id="${albumId}"]`).classList.add('selected');
+
+        document.body.style.backgroundColor = albumData.colors.background;
+        document.body.style.color = albumData.colors.text;
+
+        document.querySelector("header").style.backgroundColor = albumData.colors.primary;
+        document.querySelector("header").style.color = albumData.colors.text;
+
+        playerContainer.style.backgroundColor = albumData.colors.playerBg;
+        
+        tracksTitle.style.color = albumData.colors.text; 
+
+        spotifyPlayer.style.backgroundColor = albumData.colors.playerBg;
+        spotifyPlayer.style.borderRadius = "12px";
+        spotifyPlayer.style.padding = "15px";
+        spotifyPlayer.style.boxShadow = "0 4px 8px rgba(0, 0, 0, 0.2)";
+
+        document.querySelector("footer").style.backgroundColor = albumData.colors.background;
+        document.querySelector("footer").style.color = albumData.colors.text;
+
+        prevButton.style.backgroundColor = albumData.colors.primary;
+        nextButton.style.backgroundColor = albumData.colors.primary;
     }
 
     prevButton.addEventListener('click', () => {
@@ -140,4 +174,4 @@ document.addEventListener('DOMContentLoaded', function() {
             updateCarouselPosition();
         }
     });
-})
+});

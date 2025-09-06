@@ -56,6 +56,26 @@ main {
     overflow: hidden;
 }
 
+.tracks-container {
+    padding: 20px;
+    border-radius: 12px;
+    margin: 20px auto;
+    max-width: 800px;
+    transition: background-color 0.5s ease;
+}
+
+.spotify-player {
+    background-color: #252525;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.5s ease;
+}
+
+.spotify-player iframe {
+    border-radius: 8px;
+}
+
 .carousel {
     display: flex;
     transition: transform 0.5s ease;
@@ -88,6 +108,11 @@ main {
     font-size: 1rem;
     margin-top: 0.5rem;
 }
+
+body, header, footer, .tracks-container, .carousel-control {
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
 
 .carousel-control {
     position: absolute;
