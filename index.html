@@ -1,19 +1,94 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Discografia - Kanye West</title>
+    <title>Discografia - Meus Álbuns Favoritos</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
     <header>
-
-        <h1>Discografia</h1>
-        <h2>Kanye West</h2>
-
+        <h1>Discografia - Kanye West (Ye, ¥$)</h1>
+        <p>Explore 14 álbuns incríveis e ouça suas faixas</p>
     </header>
 
-</body><script src="main.js"></script>
+    <main>
+        <section class="carousel-container">
+            <div class="carousel">
+                <div class="album" data-album-id="1">
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/a/a3/Kanyewest_collegedropout.jpg/250px-Kanyewest_collegedropout.jpg" alt="Álbum 1">
+                    <h3>The College Dropout</h3>
+                </div>
+                <div class="album" data-album-id="2">
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/b/b4/Lateregistration.jpg/250px-Lateregistration.jpg" alt="Álbum 2">
+                    <h3>Late Registration</h3>
+                </div>
+                <div class="album" data-album-id="3">
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/7/7b/Graduation_%28%C3%A1lbum_de_Kanye_West%29.jpg/250px-Graduation_%28%C3%A1lbum_de_Kanye_West%29.jpg" alt="Álbum 3">
+                    <h3>Graduation</h3>
+                </div>
+                <div class="album" data-album-id="4">
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/f/f1/808s_%26_Heartbreak.png/250px-808s_%26_Heartbreak.png" alt="Álbum 4">
+                    <h3>808s & Heartbreak</h3>
+                </div>
+                                <div class="album" data-album-id="5">
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/c/c9/Kanye-MBDTF.png/250px-Kanye-MBDTF.png" alt="Álbum 12">
+                    <h3>My Beautiful Dark Twisted Fantasy</h3>
+                </div>
+                <div class="album" data-album-id="6">
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/2/2f/Capa_de_Yeezus.jpg/250px-Capa_de_Yeezus.jpg" alt="Álbum 5">
+                    <h3>Yeezus</h3>
+                </div>
+                <div class="album" data-album-id="7">
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/d/d7/Kanye_West_-_The_Life_of_Pablo.png/250px-Kanye_West_-_The_Life_of_Pablo.png" alt="Álbum 6">
+                    <h3>The Life of Pablo</h3>
+                </div>
+                <div class="album" data-album-id="8">
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/7/72/Ye_-_Kanye_West.jpg/250px-Ye_-_Kanye_West.jpg" alt="Álbum 7">
+                    <h3>ye</h3>
+                </div>
+                <div class="album" data-album-id="9">
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/a/a4/Kanye_West_-_Jesus_Is_King.png/250px-Kanye_West_-_Jesus_Is_King.png" alt="Álbum 8">
+                    <h3>Jesus is King</h3>
+                </div>
+                <div class="album" data-album-id="10">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Almost_black_square_020305.png/250px-Almost_black_square_020305.png" alt="Álbum 9">
+                    <h3>Donda</h3>
+                </div>
+                <div class="album" data-album-id="11">
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/c/c2/Donda_2_by_Kanye_West.jpg/250px-Donda_2_by_Kanye_West.jpg" alt="Álbum 10">
+                    <h3>Donda 2</h3>
+                </div>
+                <div class="album" data-album-id="12">
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/4/46/Bully_album.jpg/250px-Bully_album.jpg" alt="Álbum 11">
+                    <h3>Bully</h3>
+                </div>
+                <div class="album" data-album-id="13">
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/7/73/Kids_See_Ghosts_I.jpg/250px-Kids_See_Ghosts_I.jpg" alt="Álbum 13">
+                    <h3>Álbum de colaboração com Kid Cudi: Kids See Ghosts</h3>
+                </div>
+                <div class="album" data-album-id="14">
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/d/db/%C2%A5%24_-_Vultures_1.jpeg/250px-%C2%A5%24_-_Vultures_1.jpeg" alt="Álbum 14">
+                    <h3>Álbum de colaboração com Ty Dolla $ign: Vultures</h3>
+                </div>
+            </div>
+            <button class="carousel-control prev">&#10094;</button>
+            <button class="carousel-control next">&#10095;</button>
+        </section>
+
+        <section class="tracks-container">
+            <h2>Músicas do Álbum</h2>
+            <div class="spotify-player">
+                <p>Selecione um álbum para ver suas músicas</p>
+                <!-- O iframe do Spotify será inserido aqui via JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Mauricio Soares</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
 </html>
