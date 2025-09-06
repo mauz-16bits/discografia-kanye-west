@@ -1,16 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=TASA+Orbiter:wght@400..800&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: "TASA Orbiter", sans-serif;
 }
+.imgBio header {
+    font-family: "TASA Orbiter", sans-serif;
+    text-align: center;
+    padding: 2rem;
+    background-color: #9A6D38;
+    color: #121212;
+    padding: 0px;
+    margin: 0px;
+}
+
+.imgBio img {
+    height: 350px;
+    padding: 5px;
+}
+
+.imgBio p {
+    padding: 5px;
+}
 
 body {
+    margin: 0;
+    padding: 0;
     background-color: #121212;
     color: #f5f5f5;
     line-height: 1.6;
+    font-family: "TASA Orbiter", sans-serif;
 }
 
 header {
