@@ -1,11 +1,166 @@
 @import url('https://fonts.googleapis.com/css2?family=TASA+Orbiter:wght@400..800&display=swap');
 
 * {
-      font-family: "TASA Orbiter", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "TASA Orbiter", sans-serif;
 }
 
+body {
+    background-color: #121212;
+    color: #f5f5f5;
+    line-height: 1.6;
+}
 
-/* fonts */
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #9A6D38;
+    color: #121212;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.carousel-container {
+    position: relative;
+    margin-bottom: 3rem;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+    gap: 20px;
+    padding: 1rem 0;
+}
+
+.album {
+    flex: 0 0 calc(20% - 16px);
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.album:hover {
+    transform: translateY(-5px);
+}
+
+.album img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+
+.album h3 {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    z-index: 10;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-control.prev {
+    left: 10px;
+}
+
+.carousel-control.next {
+    right: 10px;
+}
+
+.carousel-control:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.tracks-container {
+    background-color: #1e1e1e;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tracks-container h2 {
+    margin-bottom: 1.5rem;
+    color: #9A6D38;
+    text-align: center;
+}
+
+.spotify-player {
+    min-height: 352px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.spotify-player iframe {
+    border-radius: 12px;
+    width: 100%;
+    max-width: 700px;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #1e1e1e;
+    margin-top: 2rem;
+}
+
+/* responsividade foda */
+@media (max-width: 1024px) {
+    .album {
+        flex: 0 0 calc(25% - 15px);
+    }
+}
+
+@media (max-width: 768px) {
+    .album {
+        flex: 0 0 calc(33.333% - 14px);
+    }
+}
+
+@media (max-width: 576px) {
+    .album {
+        flex: 0 0 calc(50% - 10px);
+    }
+    
+    .carousel-control {
+        width: 40px;
+        height: 40px;
+        padding: 0.5rem;
+    }
+}
+
+/* fontes */ 
 
 
 .tasa-orbiter {
