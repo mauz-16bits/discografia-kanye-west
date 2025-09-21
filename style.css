@@ -5,13 +5,7 @@
     font-family: "TASA Orbiter", sans-serif;
 }
 .imgBio header {
-    font-family: "TASA Orbiter", sans-serif;
-    text-align: center;
-    padding: 2rem;
-    background-color: #9A6D38;
-    color: #121212;
-    padding: 0px;
-    margin: 0px;
+
 }
 
 .imgBio img {
@@ -35,7 +29,6 @@ body {
 header {
     text-align: center;
     padding: 2rem;
-    background-color: #9A6D38;
     color: #121212;
 }
 

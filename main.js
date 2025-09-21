@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
         7: { 
             title: "The Life of Pablo", 
             spotifyEmbedUrl: "https://open.spotify.com/embed/album/7gsWAHLeT0w7es6FofOXk1?utm_source=generator",
-            colors: { primary: "#00BCD4", background: "#0A1E23", playerBg: "#132a30", text: "#E0F7FA" }
+            colors: { primary: "#B98346", background: "#AD6425", playerBg: "#E0831F", text: "#E0F7FA" }
         },
         8: { 
             title: "ye", 
@@ -49,32 +49,32 @@ document.addEventListener('DOMContentLoaded', function() {
         9: { 
             title: "Jesus is King", 
             spotifyEmbedUrl: "https://open.spotify.com/embed/album/0FgZKfoU2Br5sHOfvZKTI9?utm_source=generator",
-            colors: { primary: "#FDD835", background: "#1C1A0D", playerBg: "#2c2814", text: "#FFFDE7" }
+            colors: { primary: "#2566AD", background: "#5294DA", playerBg: "#0C233B", text: "#FFFDE7" }
         },
         10: { 
             title: "Donda", 
             spotifyEmbedUrl: "https://open.spotify.com/embed/album/5CnpZV3q5BcESefcB3WJmz?utm_source=generator",
-            colors: { primary: "#F06292", background: "#1A0D12", playerBg: "#28141c", text: "#FCE4EC" }
+            colors: { primary: "#000000", background: "#000000", playerBg: "#000000", text: "#FCE4EC" }
         },
         11: { 
             title: "Donda 2", 
             spotifyEmbedUrl: "https://open.spotify.com/embed/album/1ZkGNUz1un0b3Z7EsJl3ci?utm_source=generator",
-            colors: { primary: "#3F51B5", background: "#0D0E1C", playerBg: "#191b33", text: "#E8EAF6" }
+            colors: { primary: "#000000", background: "#000000", playerBg: "#74655D", text: "#FCE4EC" }
         },
         12: { 
             title: "Bully", 
             spotifyEmbedUrl: "https://open.spotify.com/prerelease/4xFs0x8abwU3H9uNRPFRmE?si=0bf742808a1043cd",
-            colors: { primary: "#FFB300", background: "#1C150D", playerBg: "#2a1f13", text: "#FFF8E1" }
+            colors: { primary: "#0E0C0B", background: "#A2938B", playerBg: "#CBC3BE", text: "#FFF8E1" }
         },
         13: { 
             title: "Kids See Ghosts", 
             spotifyEmbedUrl: "https://open.spotify.com/embed/album/6pwuKxMUkNg673KETsXPUV?utm_source=generator",
-            colors: { primary: "#009688", background: "#0D1C19", playerBg: "#152e2a", text: "#E0F2F1" }
+            colors: { primary: "AB47BC", background: "#0051FF", playerBg: "#FF9D2E", text: "#E0F2F1" }
         },
         14: { 
             title: "Vultures", 
             spotifyEmbedUrl: "https://open.spotify.com/embed/album/4DOsPwJtokv6HEifZ6t5j6?utm_source=generator",
-            colors: { primary: "#AB47BC", background: "#1A1020", playerBg: "#26182c", text: "#F3E5F5" }
+            colors: { primary: "#000000", background: "#474546", playerBg: "#8A4F16", text: "#F3E5F5" }
         }
     };
 
