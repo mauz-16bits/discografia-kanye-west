@@ -7,13 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <header>
         <h1>Discografia</h1>
-        <h2 style="margin-top: -20px;">Kanye West (Ye, DONDA ou ¥$)</h2>
-        <p>Explore os 14 álbuns mais icônicos do rapper americano <span onclick="modalBio()" style="cursor: pointer; text-decoration: underline;">Kanye West</span></p>
+        <h2 style="margin-top: -20px;">Kanye West</h2>
+        <p><span></p>
     </header>
-
+    
     <main>
         <section class="carousel-container">
             <div class="carousel">
@@ -33,7 +32,7 @@
                     <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/f/f1/808s_%26_Heartbreak.png/250px-808s_%26_Heartbreak.png" alt="Álbum 4">
                     <h3>808s & Heartbreak</h3>
                 </div>
-                                <div class="album" data-album-id="5">
+                <div class="album" data-album-id="5">
                     <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/c/c9/Kanye-MBDTF.png/250px-Kanye-MBDTF.png" alt="Álbum 12">
                     <h3>My Beautiful Dark Twisted Fantasy</h3>
                 </div>
@@ -77,43 +76,40 @@
             <button class="carousel-control prev">&#10094;</button>
             <button class="carousel-control next">&#10095;</button>
         </section>
-
+        
         <section class="tracks-container">
             <h2>Músicas do Álbum</h2>
             <div class="spotify-player">
                 <p>Selecione um álbum para ver suas músicas</p>
-
             </div>
         </section>
     </main>
-
-    <dialog id="bio" style="">
-
-        <header>
-            
-            <h1>Biografia</h1>
-
-        </header>
-
-        <div id="img">
-            
-             <p>A maioria das biografias e trabalhos afirmam que Kanye nasceu em 8 de junho de 1977, em Atlanta, Geórgia, porém algumas fontes dizem que o artista nasceu em Douglasville, uma cidade que fica ao oeste de Atlanta. "Kanye" significa "o único" em suaíli. Com o divórcio dos pais, aos três anos, Ye se mudou com a mãe para Chicago, Illinois.Seu pai é Ray West, um ex-membro dos Panteras Negras que foi um dos primeiros fotojornalistas negros do Atlanta Journal-Constitution e hoje é um conselheiro espiritual cristão, além de ser dono do comércio Good Water Store and Café em Lexington Park, Maryland, com ajuda de seu filho. A mãe de Ye, Dr. Donda West, foi professora de inglês na Clark Atlanta University e trabalhou como professora no departamento de inglês da Chicago State University antes de se aposentar para virar empresária do filho. Ela também escreveu o livro "Raising Kanye", onde conta como era a vida com o Ye. Ele foi criado no bairro suburbano de Oak Lawn, em Illinois, antes de se mudar para Chicago. O artista credita sua natureza feminina à criação de sua mãe. Com 10 anos, Ye e sua mãe se mudaram para Nanjing, China, onde ela começou a dar aula em uma escola da região, em um projeto de intercâmbio dos Estados Unidos. De acordo com Donda, Ye era o único estrangeiro em sua sala, mas ele se adaptou bem e aprendeu a língua rapidamente, porém desde lá ele já se esqueceu da maioria do aprendizado. </p>
-
-             <div class="imgBio">
-             <img src="https://variety.com/wp-content/uploads/2021/07/KMM_3919_44c120d2-ea8d-48e4-91c4-64e974d42e4b-1.jpg">
-             <h4 style="margin-top: -5px;">Kanye West apresentando em Atlanta, 2024</h4>
-             </div>
-
-            <p>Ye foi um estudante de arte na American Academy of Art em Chicago e também se matriculou na Chicago State University, porém desistiu para se focar na sua carreira musical. Enquanto estava na escola, Ye produzia para artistas locais. Ele posteriormente ganhou fama por produzir hit singles para grandes artistas de hip-hop e R&B, incluindo Jay-Z, Talib Kweli, Cam'ron, Paul Wall, Common, Mobb Deep, Jermaine Dupri, Scarface, The Game, Alicia Keys, Janet Jackson e John Legend, entre outros. Ele também foi "produtor-fantasma" para seu mentor Deric Angelettie segundo a música "Last Call", de Ye, assim como na música "Poppa Was a Playa" do rapper Nas, onde apareceu nos créditos.</p>
-
+    
+    <div class="artist-selector">
+        <div class="artist-icons">
+            <div class="artist-icon selected" data-artist-id="kanye">
+                <img src="https://i.scdn.co/image/ab676161000051746e835a500e791bf9c27a422a" alt="Kanye West">
+            </div>
+            <div class="artist-icon" data-artist-id="carti">
+                <img src="https://i.scdn.co/image/ab6761610000e5ebba50ca67ffc3097f6ea1710a" alt="Playboi Carti">
+            </div>
+            <div class="artist-icon" data-artist-id="kendrick">
+                <img src="https://i.scdn.co/image/ab6761610000e5eb39ba6dcd4355c03de0b50918" alt="Kendrick Lamar">
+            </div>
+            <div class="artist-icon" data-artist-id="travis">
+                <img src="https://i.scdn.co/image/ab6761610000e5eb19c2790744c792d05570bb71" alt="Travis Scott">
+            </div>
+            <div class="artist-icon" data-artist-id="future">
+                <img src="https://i.scdn.co/image/ab676161000051747565b356bc9d9394eefa2ccb" alt="Future">
+            </div>
         </div>
-        
-    </dialog>
+        <button class="artist-toggle">-</button>
+    </div>
 
     <footer>
         <p>Desenvolvido por Mauricio Soares</p>
     </footer>
-
+    
     <script src="main.js"></script>
 </body>
 </html>
